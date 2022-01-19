@@ -1,0 +1,16 @@
+Sum of array
+Input:
+1 2 3 4
+Output:
+10
+def getSum(self, arr, n):
+    # Your code goes here
+    s=0
+    for i in range(n//2):
+        s=s+arr[i]+arr[n-1-i]
+    if n%2 != 0:
+        s=s+arr[n//2]
+    return s
+    # for i in arr:
+    #     s=s+i
+    # return s
