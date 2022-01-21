@@ -1,0 +1,14 @@
+names[] = { "Geek", "Geeks", "Geeksfor",
+  "GeeksforGeek", "GeeksforGeeks" }
+
+Output:
+GeeksforGeeks
+
+def longest(self, names, n):
+        import math
+        max=-math.inf
+        for i in names:
+            if max<len(i):
+                max=len(i)
+                longestName=i
+        return longestName
