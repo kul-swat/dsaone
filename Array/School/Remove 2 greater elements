@@ -1,0 +1,9 @@
+Input : 
+a[] = {2, 8, 7, 1, 5}
+Output :
+1 2 5 
+
+def findElements(self,a, n):
+        # Your code goes here
+        a.sort()
+        return a[0:n-2]
