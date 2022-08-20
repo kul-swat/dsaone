@@ -1,0 +1,6 @@
+8=1000
+7=0111
+if 8&7==0:
+  power of 2
+else:
+  not a power of 2
